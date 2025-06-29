@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, send_file, url_for
 from scraper.scrape_MFD_project import main
 import csv
 import os
+import time
 
 app = Flask(__name__)
 
